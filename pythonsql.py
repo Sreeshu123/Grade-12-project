@@ -1,6 +1,6 @@
 import mysql.connector,csv,os
 from datetime import datetime
-obj=mysql.connector.connect(host="localhost",user="root",database="project",password="Sree1234$",autocommit=True,buffered=True)
+obj=mysql.connector.connect(host="localhost",user="root",database="project",password="",autocommit=True,buffered=True)
 c1=obj.cursor()
 c2=obj.cursor()
 #COMMANDS
